@@ -1,0 +1,149 @@
+REF: A man in an orange hat starring at something.
+HYP: A man in an orange hat is something
+
+REF: A Boston Terrier is running on lush green grass in front of a white fence.
+HYP: A runs across the grass in front of a white fence.
+
+REF: A girl in karate uniform breaking a stick with a front kick.
+HYP: A girl in a karate uniform is doing a trick with a
+
+REF: Five people wearing winter jackets and helmets stand in the snow, with snowmobiles in the background.
+HYP: Five people in winter jackets and helmets are standing in the snow with snow with trees in the background.
+
+REF: People are fixing the roof of a house.
+HYP: People are the roof of a house.
+
+REF: A man in light colored clothing photographs a group of men wearing dark suits and hats standing around a woman dressed in a strapless gown.
+HYP: A brightly colored man is taking a picture of men in dark suits and a woman wearing a light colored dress around a fence.
+
+REF: A group of people standing in front of an igloo.
+HYP: A group of people are standing in front of a
+
+REF: A boy in a red uniform is attempting to avoid getting out at home plate, while the catcher in the blue uniform is attempting to catch him.
+HYP: A boy in a red uniform trying to throw the base base as the base as he tries to catch him.
+
+REF: A guy works on a building.
+HYP: A guy working on a building.
+
+REF: A man in a vest is sitting in a chair and holding magazines.
+HYP: A man in a vest is sitting on a chair holding a
+
+REF: A mother and her young song enjoying a beautiful day outside.
+HYP: A mother and her son enjoying a beautiful day in the day.
+
+REF: Men playing volleyball, with one player missing the ball but hands still in the air.
+HYP: Men playing volleyball in the air as a man is as his hands in the air with his hands in the air.
+
+REF: A woman holding a bowl of food in a kitchen.
+HYP: A woman holding a kitchen with a kitchen with food with food
+
+REF: Man sitting using tool at a table in his home.
+HYP: A man sitting at a table working at a house with a cow.
+
+REF: Three people sit in a cave.
+HYP: Three people are sitting in a city street.
+
+REF: A girl in a jean dress is walking along a raised balance beam.
+HYP: A girl in a outfit is walking across a balance beam.
+
+REF: A blond holding hands with a guy in the sand.
+HYP: A man holding a man in sand with sand with each other.
+
+REF: A woman in a gray sweater and black baseball cap is standing in line at a shop.
+HYP: A woman in a sweater and black cap stands in a store with a store in the foreground.
+
+REF: The person in the striped shirt is mountain climbing.
+HYP: The person in the striped shirt is climbing a mountain.
+
+REF: Two men pretend to be statutes while women look on.
+HYP: Two men are watching the as they watch them.
+
+REF: People standing outside of a building.
+HYP: People standing in front of a building.
+
+REF: A teenager plays her trumpet on the field at a game.
+HYP: A teenage girl plays a game in a field.
+
+REF: A woman does a somersault on a trampoline on the beach.
+HYP: A woman is doing a flip on a trampoline at the beach.
+
+REF: A man is standing by a group of video games in a bar.
+HYP: A man stands at some sort of a bar.
+
+REF: A woman uses a drill while another man takes her picture.
+HYP: A woman uses a project while a man takes a picture.
+
+REF: A woman in a pink sweater and an apron, cleaning a table with a sponge.
+HYP: A woman in a pink sweater and a apron cleaning a table with a table.
+
+REF: A man cutting branches of trees.
+HYP: A man is cutting off some trees.
+
+REF: Group of Asian boys wait for meat to cook over barbecue.
+HYP: A group of boys wait for meat to some meat is being
+
+REF: Women, wearing traditional clothing, are reenacting native life.
+HYP: Women wearing traditional clothing playing the same time.
+
+REF: One man holds another man's head down and prepares to punch him in the face.
+HYP: A man is giving the head of another man and the man is about to the other person in the other.
+
+REF: Six people ride mountain bikes through a jungle environment.
+HYP: Six people are riding through a dirt road.
+
+REF: 2 blond girls are sitting on a ledge in a crowded plaza.
+HYP: 2 blond girls are sitting on a metal area in a crowded area.
+
+REF: A child is splashing in the water
+HYP: A child splashing in the water.
+
+REF: Three people sit at a picnic table outside of a building painted like a union jack.
+HYP: Three people are sitting at a picnic table in front of a building that is painting of a building.
+
+REF: 3 boys are standing on a pier in their bathing suits.
+HYP: 3 boys are standing in their bathing suits on a beach.
+
+REF: An employee is handing a woman a bag while she is browsing through fish on ice at a street market.
+HYP: A hands hands up an ice cream market while a few as they are
+
+REF: A pretty woman plays a harpsichord.
+HYP: A beautiful woman is playing on a balancing on a stage.
+
+REF: Outside a building, a uniformed security guard looks at the camera from behind a fence.
+HYP: In front of a building a building behind a fence behind a fence at the camera.
+
+REF: The young lady is looking at the pizza.
+HYP: The young lady is looking at the
+
+REF: A shirtless man in shorts is fishing while standing on some rocks.
+HYP: A shirtless man wearing shorts and shorts stands on rocks and some rocks and rocks.
+
+REF: A girl wearing a life vest floats in water.
+HYP: A girl in a life jacket is falling in the water.
+
+REF: A man in uniform and a man in a blue shirt are standing in front of a truck.
+HYP: A man in uniform and a man in a blue shirt standing in front of a cart.
+
+REF: People sit inside a train.
+HYP: People are sitting in a train.
+
+REF: A kid swings with his feet up in the air in a forest.
+HYP: A boy swings his feet in the air in the woods.
+
+REF: A man in a red shirt entering an establishment.
+HYP: A man in a red shirt cleaning a stone building.
+
+REF: Two men wearing swim trunks jump in the air at a moderately populated beach.
+HYP: Two men in swim trunks jumping in the air on a busy beach.
+
+REF: A toddler is cooking with another person.
+HYP: A young child cooking with another person cooking on another person
+
+REF: A father-figure and two children outside their home doing yard work such as using a hoe on the grass and planting a tree.
+HYP: A and two children are doing in front of her with a and a on a tree.
+
+REF: A man cooking food on the stove.
+HYP: A man prepares food at the stove.
+
+REF: A man in jeans at the beach playing with a red ball.
+HYP: A man in jeans is playing with a red ball on a red beach.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560">
+  <style>text{font-family:"PingFang SC","Noto Sans CJK SC",Arial,sans-serif;fill:#1d2939}.title{font-size:34px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:16px}.cell{stroke:#344054;stroke-width:1.5}</style>
+  <rect width="1080" height="560" fill="#fffdf7"/>
+  <text x="540" y="54" text-anchor="middle" class="title">Transformer 中两类常见 Mask</text>
+  <text x="285" y="105" text-anchor="middle" class="label">Padding Mask：忽略补齐位置</text>
+  <rect x="95" y="135" width="380" height="84" rx="18" fill="#eaf6ff" stroke="#344054" stroke-width="2"/>
+  <text x="285" y="168" text-anchor="middle" class="small">I love NLP &lt;pad&gt; &lt;pad&gt;</text>
+  <text x="285" y="197" text-anchor="middle" class="small">模型不应该关注 &lt;pad&gt;</text>
+  <text x="785" y="105" text-anchor="middle" class="label">Causal Mask：不能偷看未来</text>
+  <g transform="translate(625,140)">
+    <text x="110" y="-18" text-anchor="middle" class="small">可看位置</text>
+    <text x="-40" y="35" text-anchor="middle" class="small">当前位置</text>
+    <g>
+      <rect x="0" y="0" width="54" height="54" class="cell" fill="#dcfae6"/><text x="27" y="35" text-anchor="middle" class="small">✓</text>
+      <rect x="54" y="0" width="54" height="54" class="cell" fill="#fee4e2"/><text x="81" y="35" text-anchor="middle" class="small">×</text>
+      <rect x="108" y="0" width="54" height="54" class="cell" fill="#fee4e2"/><text x="135" y="35" text-anchor="middle" class="small">×</text>
+      <rect x="162" y="0" width="54" height="54" class="cell" fill="#fee4e2"/><text x="189" y="35" text-anchor="middle" class="small">×</text>
+      <rect x="0" y="54" width="54" height="54" class="cell" fill="#dcfae6"/><text x="27" y="89" text-anchor="middle" class="small">✓</text>
+      <rect x="54" y="54" width="54" height="54" class="cell" fill="#dcfae6"/><text x="81" y="89" text-anchor="middle" class="small">✓</text>
+      <rect x="108" y="54" width="54" height="54" class="cell" fill="#fee4e2"/><text x="135" y="89" text-anchor="middle" class="small">×</text>
+      <rect x="162" y="54" width="54" height="54" class="cell" fill="#fee4e2"/><text x="189" y="89" text-anchor="middle" class="small">×</text>
+      <rect x="0" y="108" width="54" height="54" class="cell" fill="#dcfae6"/><text x="27" y="143" text-anchor="middle" class="small">✓</text>
+      <rect x="54" y="108" width="54" height="54" class="cell" fill="#dcfae6"/><text x="81" y="143" text-anchor="middle" class="small">✓</text>
+      <rect x="108" y="108" width="54" height="54" class="cell" fill="#dcfae6"/><text x="135" y="143" text-anchor="middle" class="small">✓</text>
+      <rect x="162" y="108" width="54" height="54" class="cell" fill="#fee4e2"/><text x="189" y="143" text-anchor="middle" class="small">×</text>
+      <rect x="0" y="162" width="54" height="54" class="cell" fill="#dcfae6"/><text x="27" y="197" text-anchor="middle" class="small">✓</text>
+      <rect x="54" y="162" width="54" height="54" class="cell" fill="#dcfae6"/><text x="81" y="197" text-anchor="middle" class="small">✓</text>
+      <rect x="108" y="162" width="54" height="54" class="cell" fill="#dcfae6"/><text x="135" y="197" text-anchor="middle" class="small">✓</text>
+      <rect x="162" y="162" width="54" height="54" class="cell" fill="#dcfae6"/><text x="189" y="197" text-anchor="middle" class="small">✓</text>
+    </g>
+  </g>
+  <rect x="120" y="330" width="840" height="130" rx="24" fill="#ffffff" stroke="#344054" stroke-width="2"/>
+  <text x="540" y="370" text-anchor="middle" class="label">核心作用</text>
+  <text x="540" y="405" text-anchor="middle" class="small">Padding Mask 防止模型把补齐符号当成真实内容</text>
+  <text x="540" y="435" text-anchor="middle" class="small">Causal Mask 保证 Decoder 预测第 t 个词时只能看到 1 到 t 的已知词</text>
+</svg>

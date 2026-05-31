@@ -1,0 +1,37 @@
+task: reverse
+paths:
+  train_src: data/corpus/train.de
+  train_tgt: data/corpus/train.en
+  val_src: data/corpus/val.de
+  val_tgt: data/corpus/val.en
+  test_src: data/corpus/test.de
+  test_tgt: data/corpus/test.en
+
+model:
+  d_model: 128
+  d_ff: 512
+  num_heads: 8
+  num_layers: 3
+  dropout: 0.1
+  max_len: 128
+
+vocab:
+  min_freq: 2
+  max_size: 8000
+
+train:
+  batch_size: 64
+  lr: 0.0003
+  epochs: 8
+  grad_clip: 1.0
+  log_every: 50
+  num_workers: 0
+
+reverse_toy:
+  vocab_size: 64
+  train_samples: 12000
+  val_samples: 1024
+  steps_per_epoch: 150
+
+seed: 42
+device: auto

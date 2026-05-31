@@ -1,0 +1,18 @@
+{
+  "steps": [],
+  "translation": {
+    "epochs": 8,
+    "checkpoint": "checkpoints/best_translation.pt",
+    "results": "results/translation/",
+    "figure": "figures/translation_loss.png"
+  },
+  "reverse": {
+    "checkpoint": "checkpoints/best_reverse.pt",
+    "results": "results/reverse/",
+    "figure": "figures/reverse_loss.png"
+  },
+  "corpus_quick": {
+    "results": "results/corpus_quick/"
+  },
+  "elapsed_seconds": 2391.3
+}

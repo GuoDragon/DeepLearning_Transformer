@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#344054"/></marker>
+    <style>text{font-family:"PingFang SC","Noto Sans CJK SC",Arial,sans-serif;fill:#1d2939}.title{font-size:34px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:17px}.box{rx:18;stroke:#344054;stroke-width:2}.line{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1080" height="500" fill="#f8fbff"/>
+  <text x="540" y="54" text-anchor="middle" class="title">Positional Encoding: 给没有循环的模型注入词序</text>
+  <rect x="105" y="120" width="260" height="92" class="box" fill="#eaf6ff"/><text x="235" y="155" text-anchor="middle" class="label">Token Embedding</text><text x="235" y="183" text-anchor="middle" class="small">这个词是什么意思</text>
+  <rect x="105" y="285" width="260" height="92" class="box" fill="#fff2cc"/><text x="235" y="320" text-anchor="middle" class="label">Positional Encoding</text><text x="235" y="348" text-anchor="middle" class="small">这个词在第几个位置</text>
+  <path class="line" d="M365 166 H465"/><path class="line" d="M365 331 H465"/>
+  <circle cx="515" cy="248" r="46" fill="#ffffff" stroke="#344054" stroke-width="3"/><text x="515" y="258" text-anchor="middle" class="title">+</text>
+  <path class="line" d="M561 248 H675"/>
+  <rect x="675" y="185" width="300" height="126" class="box" fill="#ecfdf3"/><text x="825" y="230" text-anchor="middle" class="label">最终输入向量</text><text x="825" y="260" text-anchor="middle" class="small">词义信息 + 位置信息</text><text x="825" y="288" text-anchor="middle" class="small">送入 Encoder / Decoder</text>
+  <path d="M185 420 C275 385,315 455,405 420 S535 385,625 420 S755 455,845 420" stroke="#1570ef" stroke-width="4" fill="none"/>
+  <text x="540" y="458" text-anchor="middle" class="small">正弦 / 余弦位置编码使用不同频率表示不同尺度的位置关系</text>
+</svg>

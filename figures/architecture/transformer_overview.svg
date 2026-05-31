@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f7fbff" offset="0"/>
+      <stop stop-color="#fff8ef" offset="1"/>
+    </linearGradient>
+    <linearGradient id="enc" x1="0" x2="1">
+      <stop stop-color="#d9f0ff" offset="0"/>
+      <stop stop-color="#b7d7ff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="dec" x1="0" x2="1">
+      <stop stop-color="#ffe6c7" offset="0"/>
+      <stop stop-color="#ffd0a3" offset="1"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#344054"/>
+    </marker>
+    <style>
+      text{font-family:"PingFang SC","Noto Sans CJK SC",Arial,sans-serif;fill:#1d2939}
+      .title{font-size:34px;font-weight:700}
+      .label{font-size:20px;font-weight:700}
+      .small{font-size:17px}
+      .box{rx:20;stroke:#344054;stroke-width:2}
+      .line{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1080" height="620" fill="url(#bg)"/>
+  <text x="540" y="56" text-anchor="middle" class="title">Transformer Encoder-Decoder 总览</text>
+  <rect x="70" y="105" width="190" height="70" class="box" fill="#ffffff"/>
+  <text x="165" y="136" text-anchor="middle" class="label">源语言输入</text>
+  <text x="165" y="160" text-anchor="middle" class="small">tokens</text>
+  <path class="line" d="M260 140 H330"/>
+  <rect x="330" y="90" width="260" height="250" class="box" fill="url(#enc)"/>
+  <text x="460" y="128" text-anchor="middle" class="label">Encoder 堆叠 N 层</text>
+  <rect x="370" y="158" width="180" height="45" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="460" y="187" text-anchor="middle" class="small">Self-Attention</text>
+  <rect x="370" y="220" width="180" height="45" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="460" y="249" text-anchor="middle" class="small">Feed Forward</text>
+  <rect x="370" y="282" width="180" height="40" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="460" y="308" text-anchor="middle" class="small">Add &amp; LayerNorm</text>
+  <path class="line" d="M590 215 H685"/>
+  <rect x="685" y="90" width="260" height="355" class="box" fill="url(#dec)"/>
+  <text x="815" y="128" text-anchor="middle" class="label">Decoder 堆叠 N 层</text>
+  <rect x="725" y="158" width="180" height="45" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="815" y="187" text-anchor="middle" class="small">Masked Self-Attn</text>
+  <rect x="725" y="220" width="180" height="45" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="815" y="249" text-anchor="middle" class="small">Cross-Attention</text>
+  <rect x="725" y="282" width="180" height="45" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="815" y="311" text-anchor="middle" class="small">Feed Forward</text>
+  <rect x="725" y="344" width="180" height="40" rx="12" fill="#ffffff" stroke="#667085"/>
+  <text x="815" y="370" text-anchor="middle" class="small">Add &amp; LayerNorm</text>
+  <rect x="70" y="390" width="190" height="70" class="box" fill="#ffffff"/>
+  <text x="165" y="421" text-anchor="middle" class="label">目标前缀</text>
+  <text x="165" y="445" text-anchor="middle" class="small">已生成 tokens</text>
+  <path class="line" d="M260 425 H685"/>
+  <path class="line" d="M945 268 H1000"/>
+  <rect x="1000" y="230" width="60" height="76" rx="14" fill="#e8fff3" stroke="#344054" stroke-width="2"/>
+  <text x="1030" y="260" text-anchor="middle" class="small">下</text>
+  <text x="1030" y="284" text-anchor="middle" class="small">词</text>
+  <text x="460" y="376" text-anchor="middle" class="small">Encoder 输出作为 K/V</text>
+  <path d="M560 340 C620 395,650 350,685 245" stroke="#1570ef" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</svg>
