@@ -1,7 +1,5 @@
 # GPT Image 2 海报生成 Prompt（参考 README.zh-CN.md 与课程 PDF）
 
-本提示词按 `awesome-gpt-image-2/README.zh-CN.md` 中的 Prompt-as-Code 思路组织：用原子化 Schema 固定输出规格、主体、版式、内容模块、视觉语言、文字约束和负面约束；同时对齐 `transformer_project.pdf` 对项目海报的要求：A1/A0、必须包含论文理解、模型复现、实验结果、小组成员、GitHub 链接或二维码，不能只做论文简介。
-
 ```text
 # ROLE
 你是一个严谨的学术海报设计师和信息可视化设计师。请生成一张《深度学习》课程 Project 的 A1 竖版学术海报。海报必须像真实课程答辩海报，而不是通用 AI 艺术图。

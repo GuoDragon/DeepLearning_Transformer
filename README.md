@@ -106,7 +106,7 @@ project/
 ├── results/                # translation/、reverse/、corpus_quick/、run_summary.json
 ├── figures/                # Loss 曲线、architecture/ 架构图、project_brief/ 作业要求截图
 ├── PPT/                    # Transformer_Project_PPT.pptx
-├── poster/                 # poster.pptx / poster_A1.pdf
+├── poster/                 # poster.png / poster.pptx / poster_A1.pdf / QR / poster_prompt.md
 └── report/                 # Word 报告、代码讲解、自查表
 ```
 
@@ -273,13 +273,13 @@ python test.py --checkpoint checkpoints/best_translation.pt --device cpu --outpu
 
 | 类型 | 路径 | 说明 |
 |------|------|------|
-| Project 报告 | `report/Transformer_Project_Report.docx` / `report/Transformer_Project_Report_corrected.docx` | 原报告保留；修正版副本已统一参数量并补充分工。 |
+| Project 报告 | `report/Transformer_Project_Report_final.docx` | 最终提交版：已统一参数量为 11,664,156，并补充小组分工与 GitHub 信息。 |
 | 答辩 PPT | `PPT/Transformer_Project_PPT.pptx` | 用于课堂展示。 |
-| 海报 | `poster/poster.pptx`, `poster/poster_A1.pdf` | A1 海报的可编辑 PPT 与 PDF 版本。 |
+| 海报 | `poster/poster.png`, `poster/poster.pptx`, `poster/poster_A1.pdf`, `poster/github_repository_QR.png` | 已生成海报图片、A1 PPT/PDF 包装版本与 GitHub 二维码。 |
 | 要求自查表 | `report/requirements_checklist.md` | 逐项对照 `transformer_project.pdf` 的完成情况。 |
 | 作业说明与论文 | `docs/` | 包含 Project PDF、英文论文与中文参考材料。 |
 | 实验结果 | `results/`, `figures/` | 保存 loss、BLEU、预测样例、曲线图和一键运行汇总。 |
-| GitHub 链接/二维码 | [GuoDragon/DeepLearning_Transformer](https://github.com/GuoDragon/DeepLearning_Transformer) | 海报生成时使用该链接，并在版面中保留 GitHub QR 占位。 |
+| GitHub 链接/二维码 | [GuoDragon/DeepLearning_Transformer](https://github.com/GuoDragon/DeepLearning_Transformer) | 海报使用该链接，并提供 `poster/github_repository_QR.png`。 |
 
 建议以当前 `transformer/` 目录作为 GitHub 仓库根目录提交。
 

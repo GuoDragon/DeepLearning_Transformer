@@ -69,7 +69,7 @@
 | PDF 要求 | 完成情况 | 对应文件/目录 |
 |---|---:|---|
 | PPT | 已完成 | `PPT/Transformer_Project_PPT.pptx` |
-| 海报 | 已补齐 | `poster/poster.pptx`, `poster/poster_A1.pdf` |
+| 海报 | 已补齐 | `poster/poster.png`, `poster/poster.pptx`, `poster/poster_A1.pdf`, `poster/github_repository_QR.png` |
 | GitHub 项目 | 已整理 | 当前 `transformer/` 目录 |
 | Project 报告 | 已完成 | `report/Transformer_Project_Report.docx` |
 | 代码 | 已完成 | `model.py`, `train.py`, `test.py`, `inference.py`, `data/`, `scripts/` |
@@ -82,10 +82,10 @@
 
 | 问题 | 当前状态 | 建议处理 |
 |---|---|---|
-| GitHub 链接/二维码 | 已补充仓库链接 | [GuoDragon/DeepLearning_Transformer](https://github.com/GuoDragon/DeepLearning_Transformer)；海报提示词中保留 GitHub QR 占位 |
-| Word 报告参数量 | 原 `Transformer_Project_Report.docx` 被 Word 进程占用，已生成修正版副本 | `report/Transformer_Project_Report_corrected.docx` 已统一为 11,664,156 并补充小组分工 |
+| GitHub 链接/二维码 | 已补充仓库链接和二维码 | [GuoDragon/DeepLearning_Transformer](https://github.com/GuoDragon/DeepLearning_Transformer)；二维码文件为 `poster/github_repository_QR.png` |
+| Word 报告参数量 | 已完成 | `report/Transformer_Project_Report_final.docx` 已统一为 11,664,156，并补充小组分工与 GitHub 信息；原 `Transformer_Project_Report.docx` 保留为旧版备份参考 |
 | Markdown 报告参数量 | 已同步修正 | `report/report_draft.md`、`report/code_explanation.md` 已统一为 11,664,156 |
-| PPT 文件状态 | `ppt.pptx` 与 `PPT/Transformer_Project_PPT.pptx` 当前在 Git 中显示已修改 | 提交前确认是否为最终版本 |
+| PPT 文件状态 | 已完成 | `PPT/Transformer_Project_PPT.pptx` 已补充成员姓名和 GitHub URL |
 | 成员参与要求 | PDF 写明答辩时每位成员都需要参与讲解或回答问题 | 即使 README 已写分工，课堂展示也应准备每位成员的发言/问答点 |
 
 ## 7. 当前建议提交目录
