@@ -273,9 +273,9 @@ python test.py --checkpoint checkpoints/best_translation.pt --device cpu --outpu
 
 | 类型 | 路径 | 说明 |
 |------|------|------|
-| Project 报告 | `report/Transformer_Project_Report_final.docx` | 最终提交版：已统一参数量为 11,664,156，并补充小组分工与 GitHub 信息。 |
+| Project 报告 | `report/Transformer_Project_Report.docx` | 统一参数量为 11,664,156，并补充小组分工与 GitHub 信息。 |
 | 答辩 PPT | `PPT/Transformer_Project_PPT.pptx` | 用于课堂展示。 |
-| 海报 | `poster/poster.png`, `poster/poster.pptx`, `poster/poster_A1.pdf`, `poster/github_repository_QR.png` | 已生成海报图片、A1 PPT/PDF 包装版本与 GitHub 二维码。 |
+| 海报 | `poster/poster.png`, `poster/github_repository_QR.png` | 已生成海报图片与 GitHub 二维码。 |
 | 要求自查表 | `report/requirements_checklist.md` | 逐项对照 `transformer_project.pdf` 的完成情况。 |
 | 作业说明与论文 | `docs/` | 包含 Project PDF、英文论文与中文参考材料。 |
 | 实验结果 | `results/`, `figures/` | 保存 loss、BLEU、预测样例、曲线图和一键运行汇总。 |
