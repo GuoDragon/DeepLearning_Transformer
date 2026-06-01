@@ -221,7 +221,7 @@ class MultiHeadAttention(nn.Module):
 
     数学形式：
         MultiHead(Q, K, V) = Concat(head_1, ..., head_h) @ W_O
-        head_i = Attention(Q @ W_Q^i, K @ W_K^i, V @ W_V^i)
+        head_i = Attentio每个位置的表示n(Q @ W_Q^i, K @ W_K^i, V @ W_V^i)
 
     多头的意义：
       - 不同头可以关注不同子空间的信息（语法、语义、位置等）
@@ -335,7 +335,7 @@ class PositionwiseFeedForward(nn.Module):
     """
     逐位置前馈网络（Position-wise Feed-Forward Network, FFN）。
 
-    对序列中每个位置的表示独立地做相同的两层全连接变换（同一套参数），
+    对序列中独立地做相同的两层全连接变换（同一套参数），
     等价于对每个 token 的 d_model 维向量做逐点 MLP。
 
     结构：
@@ -392,9 +392,9 @@ class SublayerConnection(nn.Module):
     """
     子层连接包装器：实现 Transformer 中的残差连接 + LayerNorm 模式。
 
-    论文中的两种子层连接方案（我们采用 Post-LN，即论文原始方案）：
-      Post-LN:  LayerNorm(x + Dropout(Sublayer(x)))   ← 本实现采用
-      Pre-LN:   x + Dropout(Sublayer(LayerNorm(x)))    ← 后续工作的改进
+    论文中的两种子层连接方案：
+      Post-LN:  LayerNorm(x + Dropout(Sublayer(x)))   ← 论文原始方案
+      Pre-LN:   x + Dropout(Sublayer(LayerNorm(x)))   ← 本试验采用的改进方案
 
     本实现采用 Pre-LN 方案（LayerNorm 在子层之前），
     实际输出 = x + Dropout(Sublayer(LayerNorm(x)))。
@@ -453,8 +453,7 @@ class EncoderLayer(nn.Module):
     每个子层都配有独立的残差连接和 LayerNorm（通过 SublayerConnection 实现）。
 
     自注意力（Self-Attention）：
-      Q、K、V 全部来自同一个输入序列 x，让每个 token 都能关注序列中所有 token
-      （包括自身），从而捕获全局依赖关系。
+      Q、K、V 全部来自同一个输入序列 x，让每个 token 都能关注序列中所有 token（包括自身），从而捕获全局依赖关系。
 
     mask 的作用：
       传入的 mask 通常为 padding mask，屏蔽 <pad> token 对应的位置，
@@ -498,6 +497,7 @@ class EncoderLayer(nn.Module):
         # 子层 1: 多头自注意力
         # Q=K=V=x，让每个位置关注所有位置
         x = self.sublayer[0](x, lambda x_: self.self_attn(x_, x_, x_, mask))
+        
         # 子层 2: 逐位置前馈网络
         return self.sublayer[1](x, self.feed_forward)
 
