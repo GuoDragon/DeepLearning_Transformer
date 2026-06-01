@@ -661,7 +661,7 @@ class Decoder(nn.Module):
         """
         Args:
             x:        解码器输入表示（目标语言 Embedding + PositionalEncoding）
-                     形状 (batch, tgt_len, d_model)
+                      形状 (batch, tgt_len, d_model)
             memory:   编码器输出，形状 (batch, src_len, d_model)
             src_mask: 源序列 padding 掩码
             tgt_mask: 目标序列掩码（padding + causal）
